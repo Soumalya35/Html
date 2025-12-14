@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <form action="new1.html" method="get">
+        <h1>Registration From</h1>
+        <div>
+            <label for="username">Registration Number</label>
+            <input name="username" id="username" type="text" required>
+        </div>
+        <br>
+        <div>
+            <label for="Password">Name</label>
+            <input name="Password" id="Password" type="text" required>
+        </div>
+        <br>
+        <div>
+            <label for="Email">Email</label>
+            <input name="Email" id="Email" type="Email" required>
+        </div>
+        <br>
+        <div>
+            <label for="DOB">Date of Birth</label>
+            <input name="DOB" id="DOB" type="Date" required>
+        </div>
+        <br>
+        <div>
+            <label for="Age">Age</label>
+            <input name="Age" id="Age" type="number" required max="70" min="18">
+        </div>
+        <br>
+        <div>
+            <label for="stream">Stream</label>
+            <input name="stream" id="stream" type="text" required>
+        </div>
+        <br>
+        <div>
+            <label for="year">Which year you are currently in?</label>
+            <input name="year" id="year" type="number" required>
+        </div>
+        <br>
+        <h2>Gender</h2>
+        <div>
+            <input name="Gender" id="Gender" type="radio"value="Male">
+            <label for="Gender">Male</label>
+        </div>
+        <div>
+            <input name="Gender" id="Gender" type="radio"value="Female" >
+            <label for="Gender">Female</label>
+        </div>
+        <div>
+            <input name="Gender" id="Gender" type="radio"value="Trans" >
+            <label for="Gender">Trans</label>
+        </div>
+        <br>
+        <h3>State</h3>
+        <div>
+            <select name="state" id="state">
+            <option value="TN">Tamil nadu</option>
+            <option value="BH">Bhopal</option>
+            <option value="KL">Kerala</option>
+            <option value="AP">Andra pradesh</option>
+            <option value="WB">West Bengal</option>
+            <option value="MH">Maharastra</option>
+            <option value="MP">Madhya Pradesh</option>
+            <option value="TL">Telengana</option>
+        </select>
+        </div>
+        <br>
+        <h2>Food preference</h2>
+        <div>
+            <input name="Food" id="Food" type="checkbox" value="Nonvegitarian">
+            <label for="Food">Non-vegitarian</label>
+        </div>
+        <div>
+            <input name="Food" id="Food" type="checkbox" value="Veg" >
+            <label for="Food">Veg</label>
+        </div>
+         <div>
+            <input name="Food" id="Food" type="checkbox" value="Jain" >
+            <label for="Food">Jain</label>
+        </div>
+        <br>
+        <div>
+            <button type="submit">SUBMIT</button>
+            <button type="reset">RESET</button>
+        </div>
+        </form>
+    </body>
+</html>
